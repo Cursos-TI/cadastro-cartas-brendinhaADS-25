@@ -5,20 +5,20 @@
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 
 int main() { 
-     printf("Jogo Super Trunfo\n");
+     printf("JOGO SUPER TRUNFO!\n");
   // Área para definição das variáveis para armazenar as propriedades das cidades
-    char estado, codigo;
+    char estado [20];
     int pessoas, pontos;
     char cidade [20] ; 
     float pib;
     float area;
-    
+    char codigo [20];
 
   // Área para entrada de dados
     printf("Digite o estado:\n");
     scanf("%s", &estado);
 
-    printf("Digiteo código da sua carta: EX:A01...\n");
+    printf("Digiteo código da sua carta(EX:A01...):\n");
     scanf("%s", &codigo);
 
     printf("Digite o nome da cidade escolhida:\n");
@@ -33,15 +33,15 @@ int main() {
      printf("População:\n"); 
      scanf("%d", &pessoas);
 
-    printf("Nº de pontos turísticos:");
+    printf("Nº de pontos turísticos:\n");
     scanf("%d", &pontos);
 
   // Área para exibição dos dados da cidade
-    printf("O estado de é:%s\n", estado);
+    printf("O estado é:%s\n", estado);
     printf("O Código da carta é:%s\n", codigo);
-    printf("A Cidade é:%s", cidade);
+    printf("A Cidade é:%s\n", cidade);
     printf("A Áreaé de:%f\n");
     printf("A população é de:%d\n");
-    printf("O nº de pontos turísticos são:%d");
+    printf("O nº de pontos turísticos são:%d\n");
 return 0;
 } 
