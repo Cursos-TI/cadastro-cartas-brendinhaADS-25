@@ -38,12 +38,12 @@ int main() {
     scanf(" %d", &pontos);
 
   // Área para exibição dos dados da cidade
-      printf("\n---DADOS DA CARTA 1\n---");
+    printf("\n DADOS DA CARTA 1\n");
     printf("Estado:%c\n", estado);
     printf("O Código da carta é:%s\n", codigo);
     printf("A Cidade é:%s\n", cidade);
-    printf("A Área é:%.2f\n", area);
-    printf("o PIB é de:%.2f\n");
+    printf("A Área é:%.3f\n", area);
+    printf("o PIB é de:%.3f\n");
     printf("A população é de:%d\n", pessoas);
     printf("O nº de pontos turísticos são:%d\n", pontos);
 
