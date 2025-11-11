@@ -20,32 +20,32 @@ int main() {
     scanf(" %c", &estado);
 
     printf("Digiteo código da sua carta(EX:A01...):\n");
-    scanf(" %s", codigo);
+    scanf("%s", codigo);
 
     printf("Digite o nome da cidade escolhida:\n");
-    scanf(" %s", cidade);
+    scanf("%s", cidade);
 
     printf("Área(km²):\n"); 
-    scanf(" %f", &area);
+    scanf("%f", &area);
 
     printf("PIB(Produto Interno Bruto):\n");
-    scanf(" %f", &pib);
+    scanf("%f", &pib);
 
      printf("População:\n"); 
-     scanf(" %d", &pessoas);
+     scanf("%d", &pessoas);
 
     printf("Nº de pontos turísticos:\n");
-    scanf(" %d", &pontos);
+    scanf("%d", &pontos);
 
   // Área para exibição dos dados da cidade
     printf("\n DADOS DA CARTA 1\n");
-    printf("Estado:%c\n", estado);
-    printf("O Código da carta é:%s\n", codigo);
-    printf("A Cidade é:%s\n", cidade);
-    printf("A Área é:%.3f\n", area);
-    printf("o PIB é de:%.3f\n");
-    printf("A população é de:%d\n", pessoas);
-    printf("O nº de pontos turísticos são:%d\n", pontos);
+    printf("Estado: %c\n", estado);
+    printf("O Código da carta é: %s\n", codigo);
+    printf("A Cidade é: %s\n", cidade);
+    printf("A Área é: %.3f\n", area);
+    printf("o PIB é de: %.3f\n", pib);
+    printf("A população é de: %d\n", pessoas);
+    printf("O nº de pontos turísticos são :%d\n", pontos);
 
 return 0;
 } 
