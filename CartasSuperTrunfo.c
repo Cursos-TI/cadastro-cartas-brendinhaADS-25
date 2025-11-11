@@ -9,7 +9,7 @@ int main() {
      printf("Carta 1");
   // Área para definição das variáveis para armazenar as propriedades das cidades
     char estado = 'G'; 
-    int pessoas = 400.000, pontos = 25;
+    int pessoas = 400.000, pontos;
     char cidade [10] = "anapolis"; 
     float pib = 100.000;
     float area = 400.000;
@@ -34,19 +34,19 @@ int main() {
      printf("População:\n"); 
      scanf("%d", &pessoas);
 
-    printf("Nº de pontos turísticos:\n");
-    scanf("%d", &pontos);
+    printf("Pontos turísticos:\n ");
+    scanf(" %d", &pontos);
 
   // Área para exibição dos dados da cidade
     printf("\n DADOS DA CARTA 1\n");
 
     printf("Estado: %c\n ", estado);
-    printf("O Código da carta é: %s\n ", codigo);
+    printf("Código: %s\n ", codigo);
     printf("A Cidade é: %s\n ", cidade);
     printf("A Área é: %.3f\n ", area);
     printf("o PIB é de: %f\n ", pib);
     printf("A população é de: %d\n ", pessoas);
-    printf("O nº de pontos turísticos são: %d\n ", pontos);
+    printf("Pontos turísticos: %d\n ", pontos);
 
 return 0;
 } 
