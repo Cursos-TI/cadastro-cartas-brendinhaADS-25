@@ -2,15 +2,15 @@
 
   int main () { 
     
-    printf("CARTA 2 - JOGO SUPER TRUNFO "); 
+    printf("CARTA 2 - JOGO SUPER TRUNFO\n "); 
     
     char Estado; 
-    float Area, Pib; 
-    int Pessoas, Ponto; 
+    float Area, Pib, Pessoas;  
+    int Ponto; 
     char Cidade [10]; 
     char Codigo [10]; 
     
-    printf("Uma letra de 'A', 'B', 'C' (representando um estado)\n "); 
+    printf("Uma letra de 'A', 'B', 'C' (representando um estado):\n "); 
     scanf(" %c", &Estado); 
 
     printf("O código da sua carta(EX:A01...)\n "); 
@@ -23,7 +23,7 @@
     scanf("%f", Area); 
 
     printf("População:\n "); 
-    scanf("%d", Pessoas); 
+    scanf("%f", Pessoas); 
 
     printf("PIB(Produto Interno Bruto):\n "); 
     scanf("%f", Pib); 
