@@ -8,12 +8,12 @@ int main() {
      printf("JOGO SUPER TRUNFO!\n");
      printf("Carta 1");
   // Área para definição das variáveis para armazenar as propriedades das cidades
-    char estado;
-    int pessoas, pontos;
-    char cidade [10] ; 
-    float pib;
-    float area;
-    char codigo [10];
+    char estado = 'G'; 
+    int pessoas = 400.000, pontos = 25;
+    char cidade [10] = "anapolis"; 
+    float pib = 100.000;
+    float area = 400.000;
+    char codigo [10] = "G01";
 
   // Área para entrada de dados
     printf("Uma letra de 'A', 'B', 'C' (representando um estado):\n");
@@ -23,7 +23,7 @@ int main() {
     scanf("%s", codigo);
 
     printf("Digite o nome da cidade escolhida:\n");
-    scanf("%s", cidade);
+    scanf(" %s", cidade);
 
     printf("Área(km²):\n"); 
     scanf("%f", &area);
@@ -39,14 +39,14 @@ int main() {
 
   // Área para exibição dos dados da cidade
     printf("\n DADOS DA CARTA 1\n");
-    
-    printf("Estado: %c\n", estado);
-    printf("O Código da carta é: %s\n", codigo);
-    printf("A Cidade é: %s\n", cidade);
-    printf("A Área é: %.3f\n", area);
-    printf("o PIB é de: %.3f\n", pib);
-    printf("A população é de: %d\n", pessoas);
-    printf("O nº de pontos turísticos são :%d\n", pontos);
+
+    printf("Estado: %c\n ", estado);
+    printf("O Código da carta é: %s\n ", codigo);
+    printf("A Cidade é: %s\n ", cidade);
+    printf("A Área é: %.3f\n ", area);
+    printf("o PIB é de: %f\n ", pib);
+    printf("A população é de: %d\n ", pessoas);
+    printf("O nº de pontos turísticos são: %d\n ", pontos);
 
 return 0;
 } 
