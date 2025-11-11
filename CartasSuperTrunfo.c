@@ -7,7 +7,7 @@
 int main() { 
      printf("JOGO SUPER TRUNFO!\n");
   // Área para definição das variáveis para armazenar as propriedades das cidades
-    char estado [20];
+    char estado;
     int pessoas, pontos;
     char cidade [20] ; 
     float pib;
@@ -15,14 +15,14 @@ int main() {
     char codigo [20];
 
   // Área para entrada de dados
-    printf("Digite o estado:\n");
-    scanf("%s", &estado);
+    printf("Uma letra de 'A' a 'H' (representando um dos oito estados):\n");
+    scanf("%c", &estado);
 
     printf("Digiteo código da sua carta(EX:A01...):\n");
-    scanf("%s", &codigo);
+    scanf("%c", &codigo);
 
     printf("Digite o nome da cidade escolhida:\n");
-    scanf("%s", &cidade);
+    scanf("%c", &cidade);
 
     printf("Área(km):\n"); 
     scanf("%f", &area);
