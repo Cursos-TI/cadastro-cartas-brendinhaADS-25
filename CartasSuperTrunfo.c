@@ -50,7 +50,7 @@ int main() {
     printf("Pontos turísticos: %d\n ", pontos); 
 
 
-    printf(" Carta 2- JOGO SUPER TRUNFO\n "); 
+    printf("\n Carta 2- JOGO SUPER TRUNFO\n "); 
 
     char Estado; 
     char Codigo [10]; 
@@ -86,7 +86,7 @@ int main() {
     printf("Pib: %.3f\n ", Pib); 
     printf("População: %.3f\n ", Pessoas); 
     printf("Pontos turísticos: %d\n ", Pontos); 
-    
+
 
 return 0;
 } 
