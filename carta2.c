@@ -31,13 +31,13 @@
     printf("Pontos turísticos:\n "); 
     scanf(" %d", &Pontos); 
 
-    printf("Estado: %c", Estado); 
-    printf("Código da carta: %s", Codigo); 
-    printf("Cidade: %s", Cidade); 
-    printf("Área: %.3f", Area); 
-    printf("Pib: %.3f", Pib); 
-    printf("População: %.3f", Pessoas); 
-    printf("Pontos turísticos: %d", Pontos); 
+    printf("Estado: %c\n ", Estado); 
+    printf("Código da carta: %s\n ", Codigo); 
+    printf("Cidade: %s\n ", Cidade); 
+    printf("Área: %.3f\n ", Area); 
+    printf("Pib: %.3f\n ", Pib); 
+    printf("População: %.3f\n ", Pessoas); 
+    printf("Pontos turísticos: %d\n ", Pontos); 
 
 
 
