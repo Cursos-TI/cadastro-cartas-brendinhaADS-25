@@ -32,8 +32,8 @@ int main() {
     printf("PIB(Produto Interno Bruto):\n");
     scanf("%f", &pib);
 
-     printf("População:\n"); 
-     scanf("%f", &pessoas);
+    printf("População:\n"); 
+    scanf("%f", &pessoas);
 
     printf("Pontos turísticos:\n "); 
     scanf(" %d", &pontos); 
