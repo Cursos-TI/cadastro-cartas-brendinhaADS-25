@@ -86,7 +86,7 @@ int main() {
     printf("Pib: %.3f\n ", Pib); 
     printf("População: %.3f\n ", Pessoas); 
     printf("Pontos turísticos: %d\n ", Pontos); 
-
     
+
 return 0;
 } 
