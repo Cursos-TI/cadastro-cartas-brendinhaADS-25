@@ -52,8 +52,8 @@ int main() {
     printf("o PIB é de: %.3f\n ", pib); 
     printf("A população é de: %.3f\n ", pessoas); 
     printf("Pontos turísticos: %d\n ", pontos); 
-    printf("A densidade Populacional é: %f\n ", divisao1); 
-    printf("O PIB Per Capita é: %f\n ", divisao2); 
+    printf("A densidade Populacional é: %.3f\n ", divisao1); 
+    printf("O PIB Per Capita é: %.3f\n ", divisao2); 
 
     printf("\n Carta 2- JOGO SUPER TRUNFO\n "); 
 
@@ -92,8 +92,8 @@ int main() {
     printf("Pib: %.3f\n ", Pib); 
     printf("População: %.3f\n ", Pessoas); 
     printf("Pontos turísticos: %d\n ", Pontos); 
-    printf("A densidade Populacional é: %f\n ", divisao3); 
-    printf("O PIB Per Capita é: %f\n ", divisao4); 
+    printf("A densidade Populacional é: %.3f\n ", divisao3); 
+    printf("O PIB Per Capita é: %.3f\n ", divisao4); 
 
 return 0;
 } 
