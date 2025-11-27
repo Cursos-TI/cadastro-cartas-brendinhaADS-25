@@ -9,10 +9,10 @@ int main() {
      printf("Carta 1");
   // Área para definição das variáveis para armazenar as propriedades das cidades
     char estado = 'G'; 
-    float pessoas = 400.000;
+    float pessoas;
     char cidade [10] = "anapolis"; 
-    float pib = 100.000;
-    float area = 400.000;
+    float pib;
+    float area; 
     char codigo [10] = "G01"; 
     int pontos; 
     float densidade, capita;   
