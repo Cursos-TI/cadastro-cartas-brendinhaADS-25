@@ -15,6 +15,9 @@ int main() {
     float area = 400.000;
     char codigo [10] = "G01"; 
     int pontos; 
+    float densidade, capita;   
+    float divisao1 = pessoas / area; 
+    float divisao2 = pib / pessoas; 
 
   // Área para entrada de dados
     printf("Uma letra de 'A', 'B', 'C' (representando um estado):\n");
@@ -38,6 +41,7 @@ int main() {
     printf("Pontos turísticos:\n "); 
     scanf(" %d", &pontos); 
 
+
   // Área para exibição dos dados da cidade
     printf("\n DADOS DA CARTA 1\n");
 
@@ -48,15 +52,17 @@ int main() {
     printf("o PIB é de: %.3f\n ", pib); 
     printf("A população é de: %.3f\n ", pessoas); 
     printf("Pontos turísticos: %d\n ", pontos); 
-
+    printf("A densidade Populacional é: %f\n ", divisao1); 
+    printf("O PIB Per Capita é: %f\n ", divisao2); 
 
     printf("\n Carta 2- JOGO SUPER TRUNFO\n "); 
 
     char Estado; 
     char Codigo [10]; 
     int Pontos; 
-    float Area, Pib, Pessoas; 
+    float Area, Pib, Pessoas, Densidade, Capita;  
     char Cidade [10];  
+    float divisao3 = Pessoas / Area, divisao4 = Pib / Pessoas;    
 
     printf("Uma letra de 'A', 'B', 'C' (representando um estado):\n "); 
     scanf(" %c", &Estado); 
@@ -86,7 +92,8 @@ int main() {
     printf("Pib: %.3f\n ", Pib); 
     printf("População: %.3f\n ", Pessoas); 
     printf("Pontos turísticos: %d\n ", Pontos); 
-
+    printf("A densidade Populacional é: %f\n ", divisao3); 
+    printf("O PIB Per Capita é: %f\n ", divisao4); 
 
 return 0;
 } 
