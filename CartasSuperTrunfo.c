@@ -16,8 +16,8 @@ int main() {
     char codigo [10] = "G01"; 
     int pontos; 
     float densidade, capita;   
-    float divisao1 = pessoas / area; 
-    float divisao2 = pib / pessoas; 
+    float divisao1 = (float) pessoas / area; 
+    float divisao2 = (float) pib / pessoas; 
 
   // Área para entrada de dados
     printf("Uma letra de 'A', 'B', 'C' (representando um estado):\n");
@@ -62,7 +62,7 @@ int main() {
     int Pontos; 
     float Area, Pib, Pessoas, Densidade, Capita;  
     char Cidade [10];  
-    float divisao3 = Pessoas / Area, divisao4 = Pib / Pessoas;    
+    float divisao3 = (float) Pessoas / Area, divisao4 = (float) Pib / Pessoas;    
 
     printf("Uma letra de 'A', 'B', 'C' (representando um estado):\n "); 
     scanf(" %c", &Estado); 
